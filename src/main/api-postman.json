@@ -1,0 +1,30 @@
+{
+	"info": {
+		"_postman_id": "4cc9b0fa-9ee7-45cb-869b-c28ff4ea77ba",
+		"name": "Person",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "33031976"
+	},
+	"item": [
+		{
+			"name": "/v1/person",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/v1/person",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"v1",
+						"person"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
